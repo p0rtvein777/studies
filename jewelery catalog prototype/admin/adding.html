@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>Admin</title>
+</head>
+
+<body>
+<nav>
+<p>
+	<a href="stats.php">Get stats</a><br>
+	<a href="change.html">Change jewelery</a><br>
+	<a href="delete.html">Delete jewelery</a></p>
+</nav>
+
+<h1>Add new jewelery</h1>
+<form action="adding.php" method="post" id="form_input">
+<input type="number" name="price" step="0.1"> price
+<br>
+<input type="number" name="size" step="0.1"> sizes
+<br>
+<input type="text" name="info"> info
+<br>
+<select name="category">
+    <option value="ed">everyday</option>
+    <option value="mrg">marriage</option>
+    <option value="sp">special</option>
+</select> Type
+<select name="type">
+    <option value="bracelet">bracelet</option>
+    <option value="earrings">earrings</option>
+    <option value="necklace">necklace</option>
+    <option value="ring">ring</option>
+</select> Type
+<div>
+<input type="checkbox" name="confirm_all" value="yes"> Confirm that all information is correct
+</div>
+<input  type="submit" value="Send information">
+</form>
+</body>
+</html>

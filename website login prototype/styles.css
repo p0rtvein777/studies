@@ -1,0 +1,9 @@
+#form_input input[type="submit"],
+#form_input input[type="text"],
+#form_input input[type="password"], select, div{
+margin-top: 10px;
+margin-left: 20px;
+border: 3px solid #2F4F8F;
+border-radius: 10px;
+font-size: 14pt;}
+div {border:0px}

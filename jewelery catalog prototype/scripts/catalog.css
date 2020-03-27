@@ -1,0 +1,133 @@
+html {
+  font-size: 10px;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+#form_input {
+  position: center;
+}
+
+table, th, td {
+  border: 1px solid black;
+  font-size: 18px;
+}
+
+th {
+  background-color: #4CAF50;
+  color: blue;
+}
+
+td{
+  color: red;
+}
+
+.sign {
+  float: left; /* Выравнивание по правому краю */
+  border: 1px solid #333; /* Параметры рамки */
+  padding: 7px; /* Поля внутри блока */
+  margin: 10px 0 5px 5px; /* Отступы вокруг */
+  background: #f0f0f0; /* Цвет фона */ 
+  position: center;
+}
+.sign figcaption {
+  margin: 0 auto 5px; /* Отступы вокруг абзаца */
+}
+
+figure, figcaption{
+  position: center;
+}
+
+fieldset{
+  position: center;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #23527c;
+  text-decoration: underline;
+}
+a:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+h1 {
+  margin: .67em 0;
+  font-size: 2em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+h1,
+.h1 {
+  font-size: 66px;
+}
+h2,
+.h2 {
+  font-size: 30px;
+}
+h3,
+.h3 {
+  font-size: 24px;
+}
+h4,
+.h4 {
+  font-size: 18px;
+}
+h5,
+.h5 {
+  font-size: 14px;
+}
+h6,
+.h6 {
+  font-size: 12px;
+}
+p {
+  margin: 0 0 10px;
+  font-size: 24px;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-bottom: 0;
+}
+
+h1, h2, p{
+    color: #ffff00;
+    text-align: center;
+}

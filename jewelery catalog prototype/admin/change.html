@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>Admin</title>
+</head>
+
+
+<body>
+<nav>
+<p>
+	<a href="stats.php">Get stats</a><br>
+	<a href="adding.html">Add jewelery</a><br>
+	<a href="delete.html">Delete jewelery</a></p>
+</nav>
+	
+
+<h1>Change jewelery data</h1>
+<form action="change.php" method="post" id="form_input">
+<select name="type">
+	<option value="bracelet">bracelet</option>
+	<option value="earrings">earrings</option>
+	<option value="necklace">necklace</option>
+	<option value="ring">ring</option>
+</select> What is this jewelery?
+<br>
+<input type="number" name="id"> Jewelery ID to change
+<br>
+<input type="number" name="price" step="0.1"> New price here
+<br>
+<input type="number" name="size" step="0.1">  New size here
+<br>
+<input type="text" name="info" step="0.1">  New info here
+<br>
+<select name="category">
+    <option value="ed">everyday</option>
+    <option value="mrg">marriage</option>
+    <option value="sp">special</option>
+</select> Set category
+<br>
+<input  type="submit" value="Change jewelery">
+</form>
+</body>
+</html>

@@ -1,0 +1,10 @@
+G:\Stuff\Univer\MtaPPZ\univer1\univer1\bin\Debug\univer1.exe.config
+G:\Stuff\Univer\МтаППЗ\univer1\univer1\bin\Debug\univer1.exe.config
+G:\Stuff\Univer\МтаППЗ\univer1\univer1\bin\Debug\univer1.exe
+G:\Stuff\Univer\МтаППЗ\univer1\univer1\bin\Debug\univer1.pdb
+G:\Stuff\Univer\МтаППЗ\univer1\univer1\obj\Debug\univer1.csprojResolveAssemblyReference.cache
+G:\Stuff\Univer\МтаППЗ\univer1\univer1\obj\Debug\univer1.Form1.resources
+G:\Stuff\Univer\МтаППЗ\univer1\univer1\obj\Debug\univer1.Properties.Resources.resources
+G:\Stuff\Univer\МтаППЗ\univer1\univer1\obj\Debug\univer1.csproj.GenerateResource.Cache
+G:\Stuff\Univer\МтаППЗ\univer1\univer1\obj\Debug\univer1.exe
+G:\Stuff\Univer\МтаППЗ\univer1\univer1\obj\Debug\univer1.pdb

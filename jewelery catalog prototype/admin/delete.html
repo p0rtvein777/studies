@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>Admin</title>
+</head>
+
+<body>
+<nav>
+<p>
+	<a href="stats.php">Get stats</a><br>
+	<a href="adding.html">Add jewelery</a><br>
+	<a href="change.html">Change jewelery</a></p>
+</nav>
+
+<h1>Choose jewelery type and enter ID to delete</h1>
+<form action="delete.php" method="post" id="form_input">
+<select name="type">
+    <option value="bracelet">bracelet</option>
+    <option value="earrings">earrings</option>
+    <option value="necklace">necklace</option>
+    <option value="ring">ring</option>
+</select> Type
+<br>
+<input type="number" name="id" min="1"> ID
+<br>
+<input  type="submit" value="Delete jewelery">
+</form>
+</body>
+</html>

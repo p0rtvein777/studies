@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>Website user registration</title>
+</head>
+
+<body>
+<nav>
+<p><a href="entrance.html">Login</a><br>
+<a href="change_password.html">Change password</a><br>
+<a href="delete_users.html">Delete user profile</a></p>
+</nav>
+
+<h1>New user registration</h1>
+<form action="reg_script.php" method="post" id="form_input">
+<input type="text" name="name"> Name
+<br>
+<input type="text" name="surname"> Surname
+<br>
+<input type="text" name="login"> Login
+<br>
+<input type="password" name="password"> Password (15 elements max)
+<br>
+<input type="password" name="confirm_password"> Confirm password
+<br>
+<input type="text" name="email"> E-mail
+<br>
+<input type="text" name="data_of_birth"> Date of birth
+<div>Gender<br>
+<input type="radio" name="gender" value="male" checked>Male<br>
+<input type="radio" name="gender" value="female">Female
+</div>
+<select name="education">
+    <option value="higher">Higher</option>
+    <option value="incomplete higher">Incomplete higher</option>
+    <option value="secondary">Secondary</option>
+    <option value="elementary">Elementary</option>
+    <option value="none">None</option>
+</select> Education
+<div>
+<input type="checkbox" name="confirm_all" value="yes"> Confirm that all information is correct
+</div>
+<input  type="submit" value="Send information">
+</form>
+</body>
+</html>
